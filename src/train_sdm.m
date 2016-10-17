@@ -62,3 +62,4 @@ for step = 1:cr_model.deepth
     disp(['Training the ' num2str(step) '-th weak regressor finish ...']);
 end
 end
+
