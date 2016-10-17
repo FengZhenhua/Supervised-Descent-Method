@@ -1,6 +1,6 @@
-### SDM: A Matlab implementation of Supervised Descent Method for facial landmark detection and tracking
+## SDM: A Matlab implementation of Supervised Descent Method for facial landmark detection and tracking
 
-#### Resources
+### Resources
 
 * My Homepage: <https://sites.google.com/site/zhenhuaswebpage/home>
 
@@ -12,16 +12,16 @@
 
 3. Xiong, X., & De la Torre, F. Supervised descent method and its applications to face alignment. CVPR, 2013, pp:532-539.
 
-#### Guide for use
+### Guide for use
 
-##### 1. Create a folder with name 'data' for stoting training and test data, and a folder with name 'model' for storing a trained model, under the main directory
-##### 2. Download the COFW color images from http://www.vision.caltech.edu/xpburgos/ICCV13/ and unzip the .mat files to the 'data' folder
-##### 3. run the example_detection.m code for SDM training and test for facial landmark detection
+1. Create a folder with name 'data' for stoting training and test data, and a folder with name 'model' for storing a trained model, under the main directory
 
-#### Contact
+2. Download the COFW color images from http://www.vision.caltech.edu/xpburgos/ICCV13/ and unzip the .mat files to the 'data' folder
 
- Dr. Zhenhua Feng
- 
- Centre for Vision, Speech and Signal Processing, University of Surrey
- 
- z.feng@surrey.ac.uk, fengzhenhua2010@gmail.com
+3. run the example_detection.m code for SDM training and test for facial landmark detection
+
+### Contact
+
+Dr. Zhenhua Feng
+Centre for Vision, Speech and Signal Processing, University of Surrey
+z.feng@surrey.ac.uk, fengzhenhua2010@gmail.com
