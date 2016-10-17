@@ -18,10 +18,12 @@
 
 2. Download the COFW color images from http://www.vision.caltech.edu/xpburgos/ICCV13/ and unzip the .mat files to the 'data' folder
 
-3. run the example_detection.m code for SDM training and test for facial landmark detection
+3. Run the example_detection.m code for SDM training and test for facial landmark detection
 
 ### Contact
 
 Dr. Zhenhua Feng
+
 Centre for Vision, Speech and Signal Processing, University of Surrey
+
 z.feng@surrey.ac.uk, fengzhenhua2010@gmail.com
