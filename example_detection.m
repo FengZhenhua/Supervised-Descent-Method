@@ -19,7 +19,7 @@ clc;
 
 addpath('./src/');
 
-DEBUG = 1; % set this value to 0 to stop poping debug windows
+DEBUG = 0; % set this value to 1 to show intermediate results
 
 %% load training data and test data of the COFW dataset, inlcuding face images, landmarks and face bounding boxes
 load('./data/COFW_train_color.mat');
@@ -85,7 +85,7 @@ end
 % intialise model parameters, you can tune these parameters using cross validation
 cr_model.deepth = 5; %number of weak regressors in cascade
 cr_model.lambda = 1000; %weight of the regularisation term
-cr_model.patch_radius = 32; %radius of the local patch around a landmark, used for extracting local features
+cr_model.patch_radius = 16; %radius of the local patch around a landmark, used for extracting local features
 cr_model.mean_shape = mean_shape; %mean shape
 cr_model.mean_face_size = mean_face_size; %mean face size
 
@@ -125,11 +125,11 @@ for i = 1:length(test_img)
     error(i) = error(i) / norm(eye_distance_vector)/(size(predict_shape,1)/2);
 end
 
-disp(['average error normalised by inter-ocular distance: ' num2str(sum(error)/length(error))]);
+disp(['Average error normalised by inter-ocular distance: ' num2str(sum(error)/length(error))]);
 
 % plot the cumulative error distribution curve
 error = sort(error);
-plot(error, [1:length(error)]/length(error), 'k-', 'linewidth', 2);
+plot(error, [1:length(error)]/length(error), 'm-', 'linewidth', 2);
 xlim([0 0.2]);
 ylim([0 1]);
 grid on;
