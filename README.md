@@ -4,8 +4,20 @@
 
 * My Homepage: <https://sites.google.com/site/zhenhuaswebpage/home>
 
+* Please cite the following publications if you use this code.
+1. Feng, Z. H. et al. Random cascaded-regression copse for robust facial landmark detection. IEEE SPL, 2015, 1(22), pp:76-80.
+2. Feng, Z. H. et al. Cascaded collaborative regression for robust facial landmark detection trained using a mixture of synthetic and real images with dynamic weighting. IEEE TIP, 2015, 24(11), pp:3425-3440.
+3. Xiong, X., & De la Torre, F. Supervised descent method and its applications to face alignment. CVPR, 2013, pp:532-539.
+%
+
 #### Guide for use
 
 ##### 1. Create a folder with name 'data' for stoting training and test data, and a folder with name 'model' for storing a trained model, under the main directory
 ##### 2. Download the COFW color images from http://www.vision.caltech.edu/xpburgos/ICCV13/ and unzip the .mat files to the 'data' folder
 ##### 3. run the example_detection.m code for SDM training and test for facial landmark detection
+
+#### Contact
+
+##### Dr. Zhenhua Feng
+##### Centre for Vision, Speech and Signal Processing, University of Surrey
+##### z.feng@surrey.ac.uk, fengzhenhua2010@gmail.com
