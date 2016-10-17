@@ -6,11 +6,11 @@
 
 * Please cite the following publications if you use this code.
 
-1. Feng, Z. H. et al. Random cascaded-regression copse for robust facial landmark detection. IEEE SPL, 2015, 1(22), pp:76-80.
+1. Feng, Z. H., Huber P., Kittler J., Christmas W. & Wu X. J. Random cascaded-regression copse for robust facial landmark detection. IEEE Signal Processing Letters, 2015, 1(22), pp:76-80.
 
-2. Feng, Z. H. et al. Cascaded collaborative regression for robust facial landmark detection trained using a mixture of synthetic and real images with dynamic weighting. IEEE TIP, 2015, 24(11), pp:3425-3440.
+2. Feng, Z. H., Hu G., Kittler J., Christmas W. & Wu X. J. Cascaded collaborative regression for robust facial landmark detection trained using a mixture of synthetic and real images with dynamic weighting. IEEE Trans. on Image Processing, 2015, 24(11), pp:3425-3440.
 
-3. Xiong, X., & De la Torre, F. Supervised descent method and its applications to face alignment. CVPR, 2013, pp:532-539.
+3. Xiong, X., & De la Torre, F. Supervised descent method and its applications to face alignment. IEEE Conference on Conputer Vision and Pattern Recognition (CVPR), 2013, pp:532-539.
 
 ### Guide for use
 
