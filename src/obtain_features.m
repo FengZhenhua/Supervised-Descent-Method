@@ -29,3 +29,4 @@ for i=1:size(shape,1)/2
     features = [features; hogf(:)];
 end
 end
+
