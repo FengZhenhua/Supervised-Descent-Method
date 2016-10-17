@@ -5,10 +5,12 @@
 * My Homepage: <https://sites.google.com/site/zhenhuaswebpage/home>
 
 * Please cite the following publications if you use this code.
+
 1. Feng, Z. H. et al. Random cascaded-regression copse for robust facial landmark detection. IEEE SPL, 2015, 1(22), pp:76-80.
+
 2. Feng, Z. H. et al. Cascaded collaborative regression for robust facial landmark detection trained using a mixture of synthetic and real images with dynamic weighting. IEEE TIP, 2015, 24(11), pp:3425-3440.
+
 3. Xiong, X., & De la Torre, F. Supervised descent method and its applications to face alignment. CVPR, 2013, pp:532-539.
-%
 
 #### Guide for use
 
@@ -18,6 +20,8 @@
 
 #### Contact
 
-##### Dr. Zhenhua Feng
-##### Centre for Vision, Speech and Signal Processing, University of Surrey
-##### z.feng@surrey.ac.uk, fengzhenhua2010@gmail.com
+ Dr. Zhenhua Feng
+ 
+ Centre for Vision, Speech and Signal Processing, University of Surrey
+ 
+ z.feng@surrey.ac.uk, fengzhenhua2010@gmail.com
