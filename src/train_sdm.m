@@ -46,7 +46,8 @@ for step = 1:cr_model.deepth
     feature_matrix = [feature_matrix; ones(1,size(feature_matrix,2))];
     
     tmp = toc;
-    disp(['Caculate features cost ', num2str(tmp), 's']);
+    disp(['Obtaining shape-indexed local features costs ', num2str(tmp), 's']);
+    disp(['Shape-indexed local features demension: ', num2str(size(feature_matrix,1))]);
     
     pennlty = eye(size(feature_matrix,1)) * cr_model.lambda;
     pennlty(end,end) = 0;
@@ -56,7 +57,7 @@ for step = 1:cr_model.deepth
     sdm_model(step).A = (feature_matrix  *  feature_matrix' + pennlty) \ feature_matrix * error_shape';
     
     tmp = toc;
-    disp(['Caculate coefficients cost ', num2str(tmp), 's']);
+    disp(['Caculating regressors costs ', num2str(tmp), 's']);
     
     current_shape = current_shape + sdm_model(step).A(1:end-1,:)' * feature_matrix(1:end-1,:) + repmat(sdm_model(step).A(end,:)', 1, size(current_shape,2));
     disp(['Training the ' num2str(step) '-th weak regressor finish ...']);
