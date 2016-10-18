@@ -20,6 +20,8 @@
 
 3. Run the example_detection.m code for SDM training and test for facial landmark detection
 
+* Notice: The code was tested on Matlab 2016a with the Computer Vision System Toolbox. If you do not have this tool box. You can use the vlfeat toolbox insted.
+
 ### Contact
 
 Dr. Zhenhua Feng
