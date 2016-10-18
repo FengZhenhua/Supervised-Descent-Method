@@ -134,7 +134,7 @@ xlim([0 0.2]);
 ylim([0 1]);
 grid on;
 legend('SDM');
-xlabel('Nornalised error by inter-ocular distance');
+xlabel('Normalised error by inter-ocular distance');
 ylabel('Propotion of test images');
 title('cumulative error distribution curve')
 
