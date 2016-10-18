@@ -93,7 +93,7 @@ cr_model.mean_face_size = mean_face_size; %mean face size
 % !!! or load a pre-trained model from our data by uncommting the next line
 % load('./model/cr_model_cofw.mat');
 cr_model.model = train_sdm(train_img, train_init_shape, train_gt_shape, cr_model);
-save('./model/cr_model_COFW.mat', 'cr_model');
+save('./model/cr_model_cofw.mat', 'cr_model');
 
 %% apply the trained model to test images
 for i = 1:length(test_img)
