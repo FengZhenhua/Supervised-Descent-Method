@@ -1,7 +1,7 @@
 %
 % Supervised descent method for facial landmark detection and face tracking
 %
-% Subdunction used for extracting shape-indexed local features
+% Subfunction used for extracting shape-indexed local features
 %
 % Copyright @ Zhenhua Feng, fengzhenhua2010@gmail.com
 % Centre for Vision, Speech and Signal Processing, University of Surrey

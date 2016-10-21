@@ -1,7 +1,7 @@
 %
 % Supervised descent method for facial landmark detection and face tracking
 %
-% Subdunction used for training of cascaded linear regressors in SDM
+% Subfunction used for training of cascaded linear regressors in SDM
 %
 % Copyright @ Zhenhua Feng, fengzhenhua2010@gmail.com
 % Centre for Vision, Speech and Signal Processing, University of Surrey

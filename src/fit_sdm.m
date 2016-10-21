@@ -1,7 +1,7 @@
 %
 % Supervised descent method for facial landmark detection and face tracking
 %
-% Subdunction used for fitting SDM to a new image
+% Subfunction used for fitting SDM to a new image
 %
 % Copyright @ Zhenhua Feng, fengzhenhua2010@gmail.com
 % Centre for Vision, Speech and Signal Processing, University of Surrey
