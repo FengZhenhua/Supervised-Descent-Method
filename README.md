@@ -6,7 +6,7 @@
 
 * Please cite the following publications if you use this code.
 
-1. Feng, Z. H., Huber P., Kittler J., Christmas W. & Wu X. J. Random cascaded-regression copse for robust facial landmark detection. IEEE Signal Processing Letters, 2015, 1(22), pp:76-80.
+1. Feng, Z. H., Huber P., Kittler J., Christmas W. & Wu X. J. Random cascaded-regression copse for robust facial landmark detection. IEEE Signal Processing Letters, 2015, 1(22), pp:76-80. <a href="https://www.researchgate.net/publication/265850003_Random_Cascaded-Regression_Copse_for_Robust_Facial_Landmark_Detection">[ Link ]/</a>
 
 2. Feng, Z. H., Hu G., Kittler J., Christmas W. & Wu X. J. Cascaded collaborative regression for robust facial landmark detection trained using a mixture of synthetic and real images with dynamic weighting. IEEE Trans. on Image Processing, 2015, 24(11), pp:3425-3440.
 
